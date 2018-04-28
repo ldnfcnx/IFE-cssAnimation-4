@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    perspective: 800px;
+}
+div{
+    transform-style: preserve-3d;
+    position: relative;
+    left:50%;
+    margin:100px 0 0 -125px;
+    width: 250px;
+    height: 350px;
+    transition: all 0.8s;
+}
+div:hover{
+    transform: rotateY(180deg);
+}
+img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+[alt="fm"]{
+    transform: rotateY(180deg);
+}
